@@ -1,0 +1,16 @@
+;
+; BIND data file for templab.lan zone
+;
+$TTL    604800
+@       IN      SOA     ns1.templab.lan. admin.templab.lan. (
+                              3         ; Serial
+                         604800         ; Refresh
+                          86400         ; Retry
+                        2419200         ; Expire
+                         604800 )       ; Negative Cache TTL
+;
+@       IN      NS      ns1.templab.lan.
+
+ns1     IN      A       172.16.17.10
+dhcp1   IN      A       172.16.17.12
+fw      IN      A       172.16.18.254
