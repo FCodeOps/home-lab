@@ -1,4 +1,4 @@
-
+https://www.youtube.com/watch?v=VjZD3kkBzRE&t=2742s
 # BIND9 DNS Server Setup (Ubuntu VM using Vagrant)
 
 This guide outlines the steps to install and configure a BIND9 DNS server on an Ubuntu virtual machine provisioned with Vagrant. The domain used in this setup is `templab.lan`, and the server IP is `192.168.10.13`.
